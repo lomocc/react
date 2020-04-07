@@ -1,0 +1,12 @@
+{
+  "name": "react-portal-manager",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "docs",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^3.20.2"
+  }
+}

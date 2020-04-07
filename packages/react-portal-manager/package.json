@@ -1,0 +1,45 @@
+{
+  "name": "react-portal-manager",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "Vincent <const@lomo.cc>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "dist/react-portal-manager.es.js",
+  "types": "index.d.ts",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "dist",
+    "index.d.ts"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1",
+    "build": "rollup -c rollup.config.js",
+    "prepublish": "rollup -c rollup.config.js",
+    "watch": "rollup -c rollup.config.js --watch"
+  },
+  "peerDependencies": {
+    "react": "^16.8.5",
+    "react-dom": "^16.8.5"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "rollup": "^1.31.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.27.0",
+    "rollup-watch": "^4.3.1",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "@types/p-defer": "^2.0.0",
+    "p-defer": "^3.0.0"
+  }
+}
